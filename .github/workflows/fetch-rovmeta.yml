@@ -1,0 +1,59 @@
+name: Update Hero Database
+
+on:
+  schedule:
+    - cron: '0 3 * * 1'   # ทุกวันจันทร์ 03:00 UTC
+  workflow_dispatch:        # กดรันมือได้
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch HTML from rovmeta
+        run: python tools/fetch_rovmeta.py
+
+      - name: Parse HTML → heroes.json + hero_icons.json
+        run: |
+          python tools/parse_heroes.py \
+            --html out/rovmeta_raw \
+            --base data/heroes_base.json \
+            --out  out/heroes.json \
+            --icons-out out/hero_icons.json
+
+      - name: Check for changes
+        id: diff
+        run: |
+          git diff --quiet out/heroes.json out/hero_icons.json 2>/dev/null \
+            && echo "changed=false" >> $GITHUB_OUTPUT \
+            || echo "changed=true"  >> $GITHUB_OUTPUT
+
+      - name: Commit & push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add out/heroes.json out/hero_icons.json
+          PATCH=$(python -c "import json; print(json.load(open('out/heroes.json')).get('patch','?'))")
+          git commit -m "chore: update database — patch $PATCH"
+          git push
+
+      - name: Create/update Release with latest files
+        if: steps.diff.outputs.changed == 'true'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: "Hero Database — latest"
+          body: "Auto-updated. Patch: ${{ env.PATCH }}"
+          files: |
+            out/heroes.json
+            out/hero_icons.json
+          make_latest: true

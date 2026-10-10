@@ -1,0 +1,396 @@
+{
+ "patch": "1.64",
+ "total": 130,
+ "heroes": {
+  "airi": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/fb8a12b0dccdaee733cb0df7479245a4538231199.jpeg"
+  },
+  "aleister": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/865b1b90b0a5c0c961bf6e56beb47e2b368550319.jpg"
+  },
+  "alice": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301180.png"
+  },
+  "allain": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/0c8dc05e988fbd87b5d30b368b8008ec.jpg"
+  },
+  "amily": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301930.png"
+  },
+  "annette": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/305190.png"
+  },
+  "aoi": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/210fedabab9858d9a86a36a0e22fd0c2911013802.jpeg"
+  },
+  "arduin": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301260.png"
+  },
+  "arthur": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/953686dacc7e2900a7c3e557f9a289a0804234356.jpeg"
+  },
+  "arum": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301870.png"
+  },
+  "astrid": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/305020.png"
+  },
+  "ata": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/bc077a5ecf509b309fc06fbbae34d4a7.jpg"
+  },
+  "aya": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/d7eb3abf05ebf7c588efcd1c4426b6ea928761324.jpg"
+  },
+  "azzen-ka": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301270.png"
+  },
+  "baldum": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/305050.png"
+  },
+  "bijan": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/953686dacc7e2900a7c3e557f9a289a0804234356.jpeg"
+  },
+  "billow": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/0c8dc05e988fbd87b5d30b368b8008ec.jpg"
+  },
+  "biron": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/953686dacc7e2900a7c3e557f9a289a0804234356.jpeg"
+  },
+  "bolt-baron": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/953686dacc7e2900a7c3e557f9a289a0804234356.jpeg"
+  },
+  "bonnie": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/4c631eb81c40729aa258cc00774b2792.jpg"
+  },
+  "bright": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/1df9f95f158eb4bf8e3b86bc1a852220.jpg"
+  },
+  "brunhilda": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/953686dacc7e2900a7c3e557f9a289a0804234356.jpeg"
+  },
+  "butterfly": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/953686dacc7e2900a7c3e557f9a289a0804234356.jpeg"
+  },
+  "capheny": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/305240.png"
+  },
+  "celica": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/977f2da94839af7212b8071b2d4e25aa.jpg"
+  },
+  "charlotte": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/953686dacc7e2900a7c3e557f9a289a0804234356.jpeg"
+  },
+  "chaugnar": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301130.png"
+  },
+  "cresht": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301710.png"
+  },
+  "d-arcy": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/305230.png"
+  },
+  "dextra": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/ecefc7e37ee6ebd911f20cb85e3cf114.jpg"
+  },
+  "diao-chan": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/2739ce8e4cba10bbbf586d9305c0bc6d278501387.png"
+  },
+  "dirak": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/5a0aa13473e99882dd2bc386e65a757a.jpg"
+  },
+  "dolia": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/865b1b90b0a5c0c961bf6e56beb47e2b368550319.jpg"
+  },
+  "dyadia": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/0b1620c324e7800851b412a9439a689b122140483.jpeg"
+  },
+  "edras": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/953686dacc7e2900a7c3e557f9a289a0804234356.jpeg"
+  },
+  "eland-orr": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/44644fdbed6c3d262d8d99d72fc88abd.jpg"
+  },
+  "elsu": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301960.png"
+  },
+  "enzo": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/52082f355647d254c4b45a6eab022ef0194524062.jpeg"
+  },
+  "erin": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/953686dacc7e2900a7c3e557f9a289a0804234356.jpeg"
+  },
+  "errol": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/9533ebf490c391b2db65bf079b4bf749.jpg"
+  },
+  "fennik": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301730.png"
+  },
+  "florentino": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/305210.png"
+  },
+  "flowborn": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/953686dacc7e2900a7c3e557f9a289a0804234356.jpeg"
+  },
+  "gildur": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301080.png"
+  },
+  "goverra": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/953686dacc7e2900a7c3e557f9a289a0804234356.jpeg"
+  },
+  "grakk": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301750.png"
+  },
+  "hayate": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301320.png"
+  },
+  "heino": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/953686dacc7e2900a7c3e557f9a289a0804234356.jpeg"
+  },
+  "helen": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/4c631eb81c40729aa258cc00774b2792.jpg"
+  },
+  "iggy": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/76c762a4ceee074fe4459a483350dbe4258081001.jpeg"
+  },
+  "ignis": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301240.png"
+  },
+  "ilumia": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301360.png"
+  },
+  "ishar": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/38234f18a68b8d881c3c40824e10482a.jpg"
+  },
+  "jinnar": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301150.png"
+  },
+  "kahlii": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301100.png"
+  },
+  "kaine": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/316aedd067a6891ec9262c4791048c4e002690156.jpg"
+  },
+  "keera": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/4c631eb81c40729aa258cc00774b2792.jpg"
+  },
+  "kil-groth": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301390.png"
+  },
+  "kriknak": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301620.png"
+  },
+  "krixi": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301060.png"
+  },
+  "krizzix": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/c416277e6010025f3ad1b3a585291367.png"
+  },
+  "lauriel": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301410.png"
+  },
+  "laville": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/c3e8a62d08efa403fe9749696b6bdafe.jpg"
+  },
+  "liliana": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/305100.png"
+  },
+  "lindis": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301770.png"
+  },
+  "lorion": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/8bfeffe5e464f8862217c7305dbc52fe.jpg"
+  },
+  "lu-bu": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301280.png"
+  },
+  "lumburr": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301680.png"
+  },
+  "maloch": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301230.png"
+  },
+  "marja": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301210.png"
+  },
+  "max": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301800.png"
+  },
+  "mganga": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301190.png"
+  },
+  "mina": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301200.png"
+  },
+  "ming": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/210fedabab9858d9a86a36a0e22fd0c2911013802.jpeg"
+  },
+  "moren": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301700.png"
+  },
+  "mortos": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/14775da68e9b3427a5626cf04d9448bc688675385.jpg"
+  },
+  "murad": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301310.png"
+  },
+  "nakroth": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/0b1620c324e7800851b412a9439a689b122140483.jpeg"
+  },
+  "natalya": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301420.png"
+  },
+  "omega": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301140.png"
+  },
+  "omen": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/74fee9655c49277cd28834c189574987.png"
+  },
+  "ormarr": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301170.png"
+  },
+  "paine": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/7f56b60892d0215f36f436e0b6d812fa.jpg"
+  },
+  "payna": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301840.png"
+  },
+  "preyta": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301480.png"
+  },
+  "qi": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/305280.png"
+  },
+  "quillen": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/305180.png"
+  },
+  "raz": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301570.png"
+  },
+  "riktor": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/305150.png"
+  },
+  "rouie": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/caea84b1bebac1a0f5f0b1d0c717c5ad.jpg"
+  },
+  "rourke": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/305120.png"
+  },
+  "roxie": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/9d7b3043e93366865d62465b9a310f92580957575.jpg"
+  },
+  "ryoma": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301630.png"
+  },
+  "sephera": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/305270.png"
+  },
+  "sinestrea": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/d40b1c67247e69e1b2fd63ed44d9d7cd.jpg"
+  },
+  "skud": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301340.png"
+  },
+  "slimz": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301690.png"
+  },
+  "stuart": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/0c8dc05e988fbd87b5d30b368b8008ec.jpg"
+  },
+  "superman": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301400.png"
+  },
+  "taara": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301440.png"
+  },
+  "tachi": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/e6a658b1e3485aba22fd6e401700b4d0722633259.png"
+  },
+  "teemee": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301860.png"
+  },
+  "teeri": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/9e694302eee95cda70d5d7878f29859f604290561.jpg"
+  },
+  "tel-annas": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/316aedd067a6891ec9262c4791048c4e002690156.jpg"
+  },
+  "thane": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301350.png"
+  },
+  "the-flash": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/305070.png"
+  },
+  "thorne": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/177b5dc323de1f131104bc3a61a30dc5.jpg"
+  },
+  "toro": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301050.png"
+  },
+  "tulen": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301900.png"
+  },
+  "valhein": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301330.png"
+  },
+  "veera": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/4596bab5ebaf35a3023239179b889122653464512.jpg"
+  },
+  "veres": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/305200.png"
+  },
+  "violet": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/8c6c8393bd8e9b873eeb2028cc5ff239784341618.png"
+  },
+  "volkath": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/0226a3b59534f7e097b31faf55719ffc.jpg"
+  },
+  "wiro": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301940.png"
+  },
+  "wisp": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/305080.png"
+  },
+  "wonder-woman": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/305040.png"
+  },
+  "wukong": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/8e1736836bc737a5a9495cec55c1d64d.jpg"
+  },
+  "xeniel": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301490.png"
+  },
+  "y-bneth": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/305090.png"
+  },
+  "yan": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/e30adc9818a781b682c88a97ff830e00605372736.jpg"
+  },
+  "yena": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/5c5c460fe14e67f351782aa133fbb1d5432803963.jpeg"
+  },
+  "yorn": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301120.png"
+  },
+  "yue": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/215047bd2e8615e7ca6758d94e65b053913347022.jpg"
+  },
+  "zanis": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301290.png"
+  },
+  "zata": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/e6cdecc7664a50ccc8bdef6172479882.jpg"
+  },
+  "zephys": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/a19d433210391d6be2774f3fa5a7cd21087807594.jpg"
+  },
+  "zill": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/301460.png"
+  },
+  "zip": {
+   "icon_url": "https://cdn-webth.garenanow.com/webth/cdn/gth/rov/non-events/official/5248fb3ed974b26ee5a0548f4a4c7bdb604470912.jpeg"
+  },
+  "zuka": {
+   "icon_url": "https://cdn-webth.garenanow.com/mgames/kgcenter/th/Art_Resources/UI/Dynamic/Icon/305030.png"
+  }
+ }
+}
