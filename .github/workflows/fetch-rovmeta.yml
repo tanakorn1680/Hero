@@ -2,8 +2,8 @@ name: Update Hero Database
 
 on:
   schedule:
-    - cron: '0 3 * * 1'   # ทุกวันจันทร์ 03:00 UTC
-  workflow_dispatch:        # กดรันมือได้
+    - cron: '0 3 * * 1'
+  workflow_dispatch:
 
 jobs:
   update:
@@ -18,8 +18,14 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Install dependencies
+        run: pip install requests
+
       - name: Fetch HTML from rovmeta
         run: python tools/fetch_rovmeta.py
+
+      - name: Download hero icons
+        run: python tools/download_icons.py
 
       - name: Parse HTML → heroes.json + hero_icons.json
         run: |
@@ -41,19 +47,19 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add out/heroes.json out/hero_icons.json
+          git add out/heroes.json out/hero_icons.json out/icons/
           PATCH=$(python -c "import json; print(json.load(open('out/heroes.json')).get('patch','?'))")
           git commit -m "chore: update database — patch $PATCH"
           git push
 
-      - name: Create/update Release with latest files
+      - name: Create/update Release
         if: steps.diff.outputs.changed == 'true'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
           name: "Hero Database — latest"
-          body: "Auto-updated. Patch: ${{ env.PATCH }}"
           files: |
             out/heroes.json
             out/hero_icons.json
+            out/icons/*.jpg
           make_latest: true
