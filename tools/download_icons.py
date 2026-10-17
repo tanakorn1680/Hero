@@ -27,15 +27,10 @@ class ImgExtractor(HTMLParser):
 def best_icon_url(html: str) -> str | None:
     p = ImgExtractor()
     p.feed(html)
-    # ลำดับความสำคัญ: portrait width=88 → height=88 → portrait alt → CDN webth ตัวแรก
+    # img CDN แรกสุดในหน้าคือรูปของ hero นั้นเสมอ
     for src, alt, w, h in p.imgs:
-        if 'portrait' in alt.lower() and w == '88': return src
-    for src, alt, w, h in p.imgs:
-        if w == '88' and h == '88': return src
-    for src, alt, w, h in p.imgs:
-        if 'portrait' in alt.lower(): return src
-    for src, alt, w, h in p.imgs:
-        if 'webth/cdn/gth/rov' in src: return src
+        if 'cdn-webth' in src:
+            return src
     return None
 
 
