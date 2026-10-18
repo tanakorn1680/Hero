@@ -52,8 +52,14 @@ jobs:
           git commit -m "chore: update database — patch $PATCH"
           git push
 
-      - name: Create/update Release
-        if: steps.diff.outputs.changed == 'true'
+      - name: Delete existing release tag
+        run: |
+          gh release delete latest --yes 2>/dev/null || true
+          git push origin :refs/tags/latest 2>/dev/null || true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Release with updated files
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
@@ -63,3 +69,5 @@ jobs:
             out/hero_icons.json
             out/icons/*.jpg
           make_latest: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
